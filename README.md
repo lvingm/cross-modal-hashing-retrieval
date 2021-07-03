@@ -9,4 +9,8 @@
 - train_others.py: to train others-net
 - train_nso.py: to train simple model without self-others net
 
-
+# 3. pipeline
+- python vgg_bow_mat.py  # to extract embedding and save as .mat file
+- python few_shot_dataset.py  # to split dataset into few-shot and normal
+- python train_self.py  # to train self-net
+- python train_others.py  # to train others-net
